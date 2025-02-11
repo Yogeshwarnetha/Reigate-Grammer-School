@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --school-primary: #002B5C;  /* Dark blue from the image */
+  --school-secondary: #1E3A8A;
+  --school-accent: #3B82F6;
+  --school-text: #FFFFFF;
+  --school-topbar: #F3F4F6;
+}

@@ -1,0 +1,256 @@
+.banner-container {
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 120px); /* Subtracting navbar height */
+    overflow: hidden;
+    margin-top: -10px;
+  }
+  
+  .banner-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .banner-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .banner-content {
+    text-align: center;
+    color: white;
+    max-width: 800px;
+    padding: 2rem;
+  }
+  
+  .school-logo-white {
+    margin-bottom: 2rem;
+  }
+  
+  .logo-image {
+    max-width: 850px;
+    height: auto;
+  }
+  
+  .banner-title {
+    font-size: 5rem;
+    font-weight: 500;
+    letter-spacing: 0.5rem;
+    text-transform: uppercase;
+    margin: 0;
+    line-height: 1.2;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+
+  .main-about-school-home{
+    background-color: #e3e9f6;
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+  }
+  /* .about-school-home-main{
+    padding-left: 20%;
+  } */
+  
+  .home-about-content-background {
+    position: relative;
+  }
+  
+  .home-about-img {
+    position: absolute;
+    top: 20;
+    left: 40%; 
+    width: 100%;
+    height: 350px;
+    object-fit: contain; 
+    z-index: 2;
+  }
+  
+  .content-about-main-home {
+    background-color: #e3e9f6;
+    width: 1000px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    padding: 20px;
+    position: relative;
+    z-index: 0;
+  }
+  
+
+  
+  .content-main-about {
+    padding-left: 25%;
+    padding-right: 10px;
+    z-index: 1;
+  }
+
+  .about-uk-description{
+    max-width: 600px
+  }
+  
+
+  .advantage-card {
+    @apply relative bg-white rounded-2xl p-6 shadow-lg border-2 border-[#522D6D];
+    min-height: 380px;
+    max-width:360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+  }
+  
+  .advantage-number {
+    @apply absolute -top-6 -left-1 w-16 h-16 rounded-full bg-[#522D6D] 
+    flex items-center justify-center text-white text-2xl font-bold;
+  }
+  
+  .advantage-image {
+    @apply w-full h-48 object-cover rounded-lg mb-4;
+  }
+  
+  .news-card {
+    @apply bg-white rounded-2xl overflow-hidden shadow-lg transition-transform duration-300 hover:transform hover:scale-105;
+  }
+  
+  .news-image {
+    @apply w-full h-48 object-cover;
+  }
+  
+  .news-content {
+    @apply bg-[#002B5B] text-white p-6;
+  }
+  
+  .news-date {
+    @apply text-sm text-gray-300 mb-2;
+  }
+  
+  .news-title {
+    @apply text-xl font-bold mb-4;
+  }
+  
+  .news-description {
+    @apply text-gray-200 mb-4 line-clamp-3;
+  }
+
+  
+  .read-more {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    margin-right: 10px;
+  }
+
+  .readmore-icon{
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+    color: #032D5A;
+    height: 40px;
+    width: 40px;
+  }
+  @media (max-width: 1024px) {
+    .home-about-img {
+      width: 100%;
+      height: auto;
+      left: 0;
+    }
+  
+    .content-about-main-home {
+      height: auto;
+      padding: 20px;
+    }
+  
+    .content-main-about {
+      padding-left: 20px;
+    }
+  }
+  
+
+  /* Mobile responsiveness */
+  @media (max-width: 1024px) {
+    .banner-container {
+      height: calc(100vh - 100px);
+    }
+  
+    .banner-title {
+      font-size: 3rem;
+      letter-spacing: 0.3rem;
+    }
+  
+    .logo-image {
+      max-width: 400px; 
+    }
+  
+    .banner-content {
+      padding: 1.5rem; 
+    }
+
+
+
+  }
+  
+  @media (max-width: 768px) {
+    .banner-container {
+      height: calc(100vh - 80px); 
+    }
+  
+    .banner-title {
+      font-size: 2.5rem; 
+      letter-spacing: 0.2rem;
+    }
+  
+    .logo-image {
+      max-width: 300px; 
+    }
+  
+    .banner-content {
+      padding: 1rem; 
+    }
+
+    .content-about-main-home {
+      background-color: #e3e9f6;
+      width: 100%;
+      height: 500px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 30px;
+      padding: 20px;
+      position: relative;
+      z-index: 0;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .banner-container {
+      height: calc(100vh - 60px); 
+    }
+  
+    .banner-title {
+      font-size: 2rem; 
+      letter-spacing: 0.1rem;
+    }
+  
+    .logo-image {
+      max-width: 250px;
+    }
+  
+    .banner-content {
+      padding: 0.8rem;
+    }
+  }
+  

@@ -8,8 +8,8 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* School Information */}
           <div className="space-y-4">
-            <h2 className="text-xl font-semibold">Reigate Grammar International School</h2>
-            <h3 className="text-lg">Kuala Lumpur</h3>
+            <h2 className="text-1xl font-semibold">Reigate Grammar International School</h2>
+            <h3 className="text-1xl">Kuala Lumpur</h3>
             <p className="text-sm">
               Jalan Kajang 2 Utama Seksyen 2,<br />
               Kajang 2 43000 Kajang, Selangor
@@ -49,24 +49,8 @@ const Footer = () => {
 
 
           <div>
-            <h2 className="text-xl font-semibold mb-4">Quick Links</h2>
-            <nav className="space-y-2">
-              <a href="/" className="block hover:text-[var(--school-accent)]">Home</a>
-              <a href="/about-us" className="block hover:text-[var(--school-accent)]">About Us</a>
-              <a href="/school-life" className="block hover:text-[var(--school-accent)]">School Life</a>
-              <a href="/admissions" className="block hover:text-[var(--school-accent)]">Admissions</a>
-              <a href="/academics" className="block hover:text-[var(--school-accent)]">Academics</a>
-              <a href="/co-curricular-activities" className="block hover:text-[var(--school-accent)]">Co-curricular Activities</a>
-              <a href="/news-and-events" className="block hover:text-[var(--school-accent)]">News and Events</a>
-            </nav>
-          </div>
-
-          {/* Find Us Section */}
-          <div>
-            <h2 className="text-xl font-semibold mb-4">Find Us</h2>
-            <div className="space-y-4">
-              {/* Social Media Links */}
-              <div className="flex space-x-4">
+            <h2 className="text-xl font-semibold mb-4">Follow Us</h2>
+            <div className="flex space-x-4">
                 <a href="#" className="hover:text-[var(--school-accent)]" aria-label="Facebook">
                   <Facebook className="h-6 w-6" />
                 </a>
@@ -80,6 +64,14 @@ const Footer = () => {
                   <Linkedin className="h-6 w-6" />
                 </a>
               </div>
+          </div>
+
+          {/* Find Us Section */}
+          <div>
+            <h2 className="text-xl font-semibold mb-4">Find Us</h2>
+            <div className="space-y-4">
+              {/* Social Media Links */}
+              
               {/* Map */}
               <div className="rounded-lg overflow-hidden">
                 <iframe

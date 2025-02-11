@@ -114,7 +114,7 @@
   }
   
   .advantage-number {
-    @apply absolute -top-6 -left-1 w-16 h-16 rounded-full bg-[#522D6D] 
+    @apply absolute -top-6 -left-2 w-16 h-16 rounded-full bg-[#522D6D] 
     flex items-center justify-center text-white text-2xl font-bold;
   }
   

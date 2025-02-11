@@ -116,7 +116,7 @@ const Homepage = () => {
         <div className="container mx-auto">
           <h2 className="text-4xl font-bold text-[#002B5B] mb-12 sm:text-xl">The Reigate Advantage</h2>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+          <div className="flex flex-wrap justify-between gap-12">
             {/* Card 1 */}
             <div className="advantage-card">
               <div className="advantage-number">01</div>

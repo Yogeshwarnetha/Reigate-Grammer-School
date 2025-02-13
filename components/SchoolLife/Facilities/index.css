@@ -1,0 +1,33 @@
+.main-school-banner-bottom{
+    background-color: #E1E2E3;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 12%;
+    color: #032D5A;
+
+}
+
+.banner-text-content{
+    padding-left: 10%;
+}
+.banner-about-img{
+    max-height: 300px;
+}
+
+.about-banner-img{
+    max-width: 450px;
+    max-height: 450px;
+    margin-top: 150px;
+}
+
+.our-school-heading{
+    font-size: 48px;
+    text-align: center;
+}
+
+.image-container{
+    position: relative;
+    width: 50%;
+}

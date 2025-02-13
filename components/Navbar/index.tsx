@@ -20,8 +20,8 @@ import './index.css';
 const aboutUsItems = {
   column1: [
     { title: 'Our School', href: '/about/ourschool' },
-    { title: 'Welcome from Principal', href: '/about/journey' },
-    { title: 'Mission and Vision', href: '/about/heritage' },
+    { title: 'Welcome from Principal', href: '/about/principal' },
+    { title: 'Mission and Vision', href: '/about/mission-vision' },
     { title: 'Senior Leadership Team', href: '/about/history' },
 ],
 column2: [
@@ -38,8 +38,8 @@ column3: [
 
 const schoolLifeItems = {
   column1: [
-      { title: "Term Dates And Calendar", href: "/school-life/calendar" },
-      { title: "Facilities", href: "/school-life/term-dates" },
+      { title: "Term Dates And Calendar", href: "/school-life/termdate-calender" },
+      { title: "Facilities", href: "/school-life/facilities" },
       { title: "Boarding", href: "/school-life/schedule" }
     ],
     column2: [

@@ -1,0 +1,160 @@
+.about-our-school-banner{
+    background-color: #E1E2E3;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 12%;
+    color: #032D5A;
+
+}
+
+.banner-text-content{
+    padding-left: 10%;
+}
+.banner-about-img{
+    max-height: 300px;
+}
+
+.about-banner-img{
+    max-width: 450px;
+    max-height: 450px;
+    margin-top: 150px;
+}
+
+.our-school-heading{
+    font-size: 48px;
+    text-align: center;
+}
+
+.image-container{
+    position: relative;
+    width: 50%;
+}
+
+.our-vision-mission-main-section {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #DCE4F4;
+    padding: 40px 20px;
+}
+
+.our-vision-mission-main-sub-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    gap: 40px;
+}
+
+/* Text Styling */
+.our-mission-text-container {
+    flex: 1;
+}
+
+.our-mission-heading {
+    color: #032D5A;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.our-mission-description {
+    max-width: 480px;
+    text-align: justify;
+    line-height: 28px;
+    margin-top: 20px;
+}
+
+/* Image Styling */
+.our-mission-image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.our-vision-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.ourmission-section-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.ourmission-section-2-para{
+    max-width: 550px;
+    line-height: 28px;
+    font-weight: 400;
+    text-align: center;
+    font-size: 18px;
+}
+.card-custom-text-section-2{
+    width: 250px;
+    line-height: 28px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.cards-main-container-section-2{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    width: 60%;
+    gap: 30px;
+}
+
+.section-2-card-container{
+    display: flex;
+    justify-content: center;
+}
+
+
+.excellence-container{
+  margin: 5px;
+}
+
+
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .our-vision-mission-main-sub-section {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .our-mission-text-container, .our-mission-image-container {
+        width: 100%;
+    }
+
+    .our-mission-description {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .our-mission-heading {
+        font-size: 28px;
+    }
+
+    .our-mission-description {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .our-mission-image-container{
+        order: 1;
+    }
+
+    .our-mission-text-container{
+        order: 2;
+    }
+
+}

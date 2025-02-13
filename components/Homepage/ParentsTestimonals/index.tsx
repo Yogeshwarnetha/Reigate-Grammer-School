@@ -51,7 +51,7 @@ const Testimonials = () => {
   return (
     <div className="relative flex flex-col items-center justify-center md:p-8">
       {/* Yellow Background Covering Half */}
-      <div className="absolute top-0 left-0 w-full h-1/2 bg-[#FFE599]"></div>
+      <div className="absolute top-0 left-0 w-full h-1/2 bg-[#8A8D8F80]"></div>
 
       {/* Content Wrapper */}
       <div className="relative w-full max-w-6xl p-6 md:p-8 z-10">

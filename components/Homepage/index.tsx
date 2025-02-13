@@ -82,8 +82,8 @@ const Homepage = () => {
 
       {/* RGS UK Section */}
       <div className="bg-[#032D5A] text-white mt-16">
-        <div className="container mx-auto px-4 py-16">
-          <div className="flex flex-col lg:flex-row items-center gap-8">
+        <div className="container about-uk-section-main-container mx-auto px-4 py-16">
+          <div className="about-uk-school-image-text-container">
             <div className="lg:w-1/2">
               <h2 className="text-4xl font-bold mb-6">RGS UK</h2>
               <p className="about-uk-description text-lg leading-relaxed mb-8">
@@ -96,13 +96,11 @@ const Homepage = () => {
                 Know More
               </Button>
             </div>
-            <div className="lg:w-1/2 flex justify-center">
+            <div className="lg:w-1/2 flex justify-end">
               <Image
                 src={Image350Yrs}
                 alt="350 Years Anniversary"
-                width={580}
-                height={200}
-                className="object-contain"
+                className="school350-years-img object-contain"
               />
             </div>
           </div>
@@ -112,11 +110,11 @@ const Homepage = () => {
     <section>
     <div className="min-h-screen bg-white">
       {/* The Reigate Advantage Section */}
-      <section className="py-16 px-4">
-        <div className="container mx-auto">
-          <h2 className="text-4xl font-bold text-[#002B5B] mb-12 sm:text-xl">The Reigate Advantage</h2>
+      <section className="py-16 px-4 ">
+        <div className="container advantage-section-main-container mx-auto">
+          <h2 className="lg:text-4xl font-bold text-[#002B5B] mb-12 sm:text-xl">The Reigate Advantage</h2>
           
-          <div className="flex flex-wrap justify-between gap-12">
+          <div className="flex flex-wrap justify-between">
             {/* Card 1 */}
             <div className="advantage-card">
               <div className="advantage-number">01</div>
@@ -125,7 +123,7 @@ const Homepage = () => {
                 alt="Students studying"
                 className="advantage-image"
               />
-              <h3 className="text-xl font-bold text-purple-800 mb-3">Holistic Education</h3>
+              <h3 className="text-xl font-bold text-[#032D5A] mb-3">Holistic Education</h3>
               <p className="text-gray-600 flex justify-center">
                 Empowering students with a balanced education that nurtures academic excellence and personal growth.
               </p>
@@ -139,7 +137,7 @@ const Homepage = () => {
                 alt="Co-curricular activities"
                 className="advantage-image"
               />
-              <h3 className="text-xl font-bold text-purple-800 mb-3">Extensive Co-curriculars</h3>
+              <h3 className="text-xl font-bold text-[#032D5A] mb-3">Extensive Co-curriculars</h3>
               <p className="text-gray-600">
                 Unleashing potential through diverse co-curricular activities that foster creativity, teamwork, and leadership skills.
               </p>
@@ -153,7 +151,7 @@ const Homepage = () => {
                 alt="Pastoral care"
                 className="advantage-image"
               />
-              <h3 className="text-xl font-bold text-purple-800 mb-3">Pastoral Care</h3>
+              <h3 className="text-xl font-bold text-[#032D5A] mb-3">Pastoral Care</h3>
               <p className="text-gray-600">
                 Providing unwavering pastoral care to ensure every student feels supported, valued, and ready to thrive.
               </p>
@@ -164,7 +162,7 @@ const Homepage = () => {
 
       {/* News and Events Section */}
       <section className="py-16 px-4 bg-gray-50">
-        <div className="container mx-auto">
+        <div className="container news-section-main-container mx-auto">
           <h2 className="text-4xl font-bold text-[#002B5B] mb-12">News and Events</h2>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -176,7 +174,7 @@ const Homepage = () => {
                 className="news-image"
               />
               <div className="news-content">
-                <span className="news-tag bg-blue-600 text-white text-xs px-2 py-1 rounded">Education</span>
+                <p className="news-date">January 15, 2024</p>
                 <h3 className="news-title">Leading in Academic achievements</h3>
                 <p className="news-description">
                   Shaping Bright Futures: Outstanding Academic Excellence Propelling Students to Global Success in Education and Beyond.

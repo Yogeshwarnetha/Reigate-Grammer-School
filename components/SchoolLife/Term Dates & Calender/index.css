@@ -1,0 +1,233 @@
+.main-school-banner-bottom{
+    background-color: #E1E2E3;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 12%;
+    color: #032D5A;
+
+}
+
+.banner-text-content{
+    padding-left: 10%;
+}
+.banner-about-img{
+    max-height: 300px;
+}
+
+.about-banner-img{
+    max-width: 450px;
+    max-height: 450px;
+    margin-top: 150px;
+}
+
+.our-school-heading{
+    font-size: 48px;
+    text-align: center;
+}
+
+.image-container{
+    position: relative;
+    width: 50%;
+}
+
+.tdc-section2-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    text-align: center;
+    text-align: justify;
+}
+
+.tdc-section2-description{
+    line-height: 28px;
+}
+
+
+.tdc-section2-main-container{
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.calenderImage-download-main{
+    max-width: 1400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.calenderImage-download-sub-main{
+    display:flex;
+    align-items: center;
+
+}
+
+.calender-content-main{
+    margin-left: 20px;
+}
+
+.download-text-main{
+    font-size: 40px;
+}
+
+.download-pdf-button{
+    padding: 10px 20px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    background: #032D5A;
+    margin-top: 20px;
+
+}
+
+
+.tdc-section2-main-download-calender{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    text-align: center;
+    text-align: justify;
+    background-color: #E1E2E3;
+}
+
+
+.tdc-section3-main-download-calender{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    text-align: center;
+    text-align: justify;
+    background-color: #DCE4F4;
+
+}
+
+.tdc-section3-heading{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #032D5A;
+
+}
+
+.tdc-section3-description{
+    margin-top: 30px;
+    max-width: 1000px;
+    text-align: center;
+}
+
+.calender-left-side-card {
+    background-color: #032D5A;
+    width: 80%;
+    max-width: 500px;
+    text-align: center;
+}
+
+/* Default Tab Styling */
+.card-term-right-side {
+    background-color: #F5F6F6;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 120px;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+}
+
+/* 🔹 Active Tab (Selected Term) */
+.card-term-right-side.active-term {
+    background-color: #032D5A !important; /* Dark Navy Blue */
+    color: white !important;
+    transform: scale(1.05);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.main-term-calender-container-tabs{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+/* Container Layout */
+.main-terms-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    margin-top: 50px;
+    position: relative;
+    gap: 20px;
+}
+
+/* Desktop Layout */
+.main-leftside-term-container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 300px;
+}
+
+.main-leftside-term-container > div {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+}
+
+.main-rightside-term-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* 🔹 Mobile Responsive Styling */
+@media (max-width: 768px) {
+    .main-terms-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .main-leftside-term-container {
+        width: 100%;
+        height: auto;
+    }
+
+    .main-leftside-term-container > div {
+        position: relative;
+        left: 0;
+        transform: none;
+        width: 90%;
+    }
+
+    .main-rightside-term-container {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-term-right-side {
+        width: 80%;
+        max-width: 250px;
+    }
+}

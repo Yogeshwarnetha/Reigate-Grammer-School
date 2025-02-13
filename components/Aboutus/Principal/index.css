@@ -1,0 +1,91 @@
+.about-our-school-banner{
+    background-color: #E1E2E3;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 12%;
+    color: #032D5A;
+
+}
+
+.banner-text-content{
+    padding-left: 10%;
+}
+.banner-about-img{
+    max-height: 300px;
+}
+
+.about-banner-img{
+    max-width: 450px;
+    max-height: 450px;
+    margin-top: 150px;
+}
+
+.our-school-heading{
+    font-size: 48px;
+    text-align: center;
+}
+
+.image-container{
+    position: relative;
+    width: 50%;
+}
+
+.prinicpal-background{
+    position: absolute;
+    bottom: 0px;
+    left: 1px;
+    max-width: 800px;
+    height: auto;
+}
+
+.prinicpal-img{
+    position: relative;
+    left: 100px;
+    max-width: 400px;
+    height: auto;
+}
+
+.image-description-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+}
+
+.principal-description-container{
+    width: 50%;
+    position: relative;
+}
+
+.principal-description-sub-container{
+    width: 80%;
+    text-align: justify;
+}
+
+.principal-description{
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 20px;
+    font-weight: 400;
+}
+
+.principal-designation{
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.principal-fullname{
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.about-principal-section-2{
+    background-color: #032D5A;
+}
+

@@ -99,14 +99,21 @@
   }
 
   .about-uk-description{
-    max-width: 600px
+    max-width: 500px;
+    text-align: justify;
+    font-weight: 400
+  }
+
+  .school350-years-img{
+    max-width: 560px;
+    max-height: 350px;
   }
   
 
   .advantage-card {
-    @apply relative bg-white rounded-2xl p-6 shadow-lg border-2 border-[#522D6D];
+    @apply relative bg-[#ECF0F8] rounded-2xl p-6 shadow-lg border-2 border-[#032D5A];
     min-height: 380px;
-    max-width:360px;
+    max-width:350px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -114,7 +121,7 @@
   }
   
   .advantage-number {
-    @apply absolute -top-6 -left-2 w-16 h-16 rounded-full bg-[#522D6D] 
+    @apply absolute -top-6 -left-[-30px] w-16 h-16 rounded-full bg-[#032D5A] 
     flex items-center justify-center text-white text-2xl font-bold;
   }
   
@@ -123,7 +130,8 @@
   }
   
   .news-card {
-    @apply bg-white rounded-2xl overflow-hidden shadow-lg transition-transform duration-300 hover:transform hover:scale-105;
+    @apply bg-[#032D5A] rounded-2xl overflow-hidden shadow-lg transition-transform duration-300 hover:transform hover:scale-105;
+    max-width: 400px
   }
   
   .news-image {
@@ -135,7 +143,7 @@
   }
   
   .news-date {
-    @apply text-sm text-gray-300 mb-2;
+    @apply text-sm bg-[#B9C9E9] text-[#032D5A] mb-2 p-[6px] max-w-32 rounded-2xl justify-center items-center ;
   }
   
   .news-title {
@@ -162,6 +170,32 @@
     height: 40px;
     width: 40px;
   }
+
+  .advantage-section-main-container{
+    max-width: 1400px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .news-section-main-container{
+    max-width: 1400px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-uk-section-main-container{
+    max-width: 1400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-uk-school-image-text-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+
   @media (max-width: 1024px) {
     .home-about-img {
       width: 100%;

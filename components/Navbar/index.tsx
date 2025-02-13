@@ -76,8 +76,8 @@ const academicsItems = {
     { title: 'Learning Support', href: '/academics/support' },
   ],
   column2: [
-    { title: 'Primary School', href: '/academics/primary' },
-    { title: 'Secondary School', href: '/academics/secondary' },
+    { title: 'Primary School', href: '/academics/primary-school' },
+    { title: 'Secondary School', href: '/academics/secondary-school' },
     { title: 'Sixth Form', href: '/academics/sixth-form' },
   ],
   column3: [

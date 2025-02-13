@@ -1,0 +1,49 @@
+.banner-about-img{
+    max-height: 300px;
+}
+
+.banner-background-text-navigation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1200px;
+}
+
+.main-school-banner-bottom{
+    background-color: #E1E2E3;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 18%;
+    color: #032D5A;
+
+}
+
+.apply-ssection3-heading{
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.feestructure-section2-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    text-align: center;
+    text-align: justify;
+    background-color: #DCE4F4;
+}
+
+.apply-section3-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    text-align: center;
+    text-align: justify;
+    width: 100%;
+}

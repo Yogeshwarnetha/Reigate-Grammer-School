@@ -1,0 +1,125 @@
+.banner-about-img{
+    max-height: 300px;
+}
+
+.banner-background-text-navigation{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 1200px;
+    margin-left: 15%;
+}
+
+.main-school-banner-bottom{
+    background-color: #E1E2E3;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 18%;
+    color: #032D5A;
+
+}
+
+.banner-page-top-img-container{
+    width: 100%;
+    background-color: red;
+}
+
+.feestructure-card-description-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.feestructure-list-card{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+
+}
+.feestructure-card-main {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+    margin-top: 50px;
+}
+
+.feestructure-card-count {
+    font-size: 20px;
+    font-weight: 600;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #032D5A; /* Dark blue */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F8F8F8; /* White */
+    margin-right: 15px;
+    flex-shrink: 0; /* Prevent shrinking */
+}
+
+.feestructure-card-description-container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1; /* Ensures it takes up remaining space */
+}
+
+.feestructure-card-heading {
+    font-size: 22px;
+    font-weight: 700;
+    color: #000000; /* Black */
+    margin-bottom: 5px;
+}
+
+.feestructure-card-description {
+    font-size: 16px;
+    font-weight: 400;
+    color: #444444; /* Dark Gray */
+    max-width: 280px;
+}
+
+.feestructure-card-description-1{
+    font-size: 16px;
+    font-weight: 400;
+    color: #444444; /* Dark Gray */
+    max-width: 450px;
+}
+
+
+.feestructure-section2-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    text-align: center;
+    text-align: justify;
+    background-color: #DCE4F4;
+}
+
+.feestructure-section2-main-container{
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+  .feestructure-list-cards-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* margin-top: 50px; */
+  }
+
+  .feestructure-main-description{
+    font-size: 24px;
+    font-weight: 700;
+    color: #1E1E1E;
+    margin-bottom: 50px;
+    text-align: justify;
+    width: 100%;
+  }

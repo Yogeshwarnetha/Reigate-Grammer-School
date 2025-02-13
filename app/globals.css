@@ -8,4 +8,14 @@
   --school-accent: #3B82F6;
   --school-text: #FFFFFF;
   --school-topbar: #F3F4F6;
+  --font-weiss-std: "Weiss Std", serif;
+
+}
+
+
+@font-face {
+  font-family: "Weiss Std";
+  src: url("/fonts/WeissStd-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }

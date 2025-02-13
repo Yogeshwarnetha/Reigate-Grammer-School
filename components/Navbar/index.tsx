@@ -53,12 +53,12 @@ const schoolLifeItems = {
 
 const admissionsItems = {
   column1: [
-    { title: 'How to Apply', href: '/admissions/apply' },
+    { title: 'How to Apply', href: '/admission/apply' },
     { title: 'Application Process', href: '/admissions/process' },
     { title: 'Entry Requirements', href: '/admissions/requirements' },
   ],
   column2: [
-    { title: 'Fees Structure', href: '/admissions/fees' },
+    { title: 'Fees Structure', href: '/admission/fee-structure' },
     { title: 'Financial Aid', href: '/admissions/aid' },
     { title: 'Scholarships', href: '/admissions/scholarships' },
   ],
@@ -283,8 +283,8 @@ const Navbar = () => {
     <header className="navbar-main-container sticky top-0 z-50 w-full">
       <TopBar />
       <div className="container-fluid navbar-logo-list">
-        <div className="flex items-center px-4">
-          <div className="flex items-center space-x-4">
+        <div className="flex items-center justify-between w-full px-4 ml-10">
+          <div className="flex items-center">
             <a href="/" className="flex items-center space-x-2">
               <Image
                 src={BrandLogo}
@@ -294,7 +294,7 @@ const Navbar = () => {
             </a>
           </div>
 
-          <div className="flex-1 flex justify-end md:justify-center">
+          <div className="hidden md:flex justify-end flex-1 mr-10">
             <DesktopNavigation />
           </div>
 

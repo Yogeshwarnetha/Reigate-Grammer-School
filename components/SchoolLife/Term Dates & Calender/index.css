@@ -4,14 +4,22 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 12%;
+    padding-left: 18%;
     color: #032D5A;
 
 }
 
-.banner-text-content{
-    padding-left: 10%;
+.banner-background-text-navigation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1200px;
+    /* background-color: red; */
 }
+
+/* .banner-text-content{
+    padding-left: 10%;
+} */
 .banner-about-img{
     max-height: 300px;
 }

@@ -17,7 +17,7 @@ const font = DM_Sans({
 export default function RootLayoutServer({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body className={font.className}>{children}</body>
+      <body className={font.className} style={{ fontFamily: "var(--font-weiss-std)" }}>{children}</body>
     </html>
   );
 }

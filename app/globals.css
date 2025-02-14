@@ -19,3 +19,15 @@
   font-weight: normal;
   font-style: normal;
 }
+
+.main-404-error-page{
+  color: var(--school-text);
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-404-error{
+  max-width: 500px;
+}

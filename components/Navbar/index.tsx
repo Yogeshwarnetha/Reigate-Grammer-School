@@ -25,8 +25,8 @@ const aboutUsItems = {
     { title: 'Senior Leadership Team', href: '/about/history' },
 ],
 column2: [
-    { title: 'Go Beyond Philosophy', href: '/about/leadership' },
-    { title: 'Pastoral Care', href: '/about/board' },
+    { title: 'Go Beyond Philosophy', href: '/about/go-beyond' },
+    { title: 'Pastoral Care', href: '/about/pastrol-care' },
     { title: 'Our Location', href: '/about/academic-team' },
 ],
 column3: [

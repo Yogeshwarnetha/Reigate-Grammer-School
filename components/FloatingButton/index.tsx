@@ -1,14 +1,14 @@
 import React from "react";
-import './index.css'
+import './index.css';
 
 interface FloatingButtonProps {
-  onClick: () => void; // Explicitly define the type for onClick
+  onClick: () => void;
 }
 
 const FloatingButton: React.FC<FloatingButtonProps> = ({ onClick }) => {
   return (
     <button className="floating-button" onClick={onClick}>
-      Apply Now
+      <p>Apply <br/> Now</p>
     </button>
   );
 };

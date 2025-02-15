@@ -1,0 +1,80 @@
+.pastrol-care-section1-text{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    text-align: start;
+    margin-left: 5%;
+    max-width: 800px;
+    line-height: 30px;
+}
+
+.pastrol-care-quotation{
+    margin-left: 35%;
+    /* margin-top: 20px; */
+    margin-bottom: 70%;
+    font-size: 20px;
+}
+
+.pastrol-care-description{
+    text-align:justify;
+}
+
+.pastrol-care-section2{
+    display: flex;
+    background-color: #032D5A;
+    width: 100%;
+    justify-content: center;
+}
+
+.pastrol-care-section2-main{
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.pastrol-care-section2-img{
+    width: 50%;
+    display:flex ;
+    justify-content: center;
+}
+
+.pastrol-care-section2-content{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.pastrol-care-section2-sub-content{
+    max-width: 70%;
+    
+}
+
+.pastrol-care-section2-heading{
+    font-size: 32px;
+    color: white;
+}
+
+.pastrol-care-section2-description{
+    line-height: 28px;
+    font-size: 16px;
+    margin-top: 10px;
+    color: #F8F8F8;
+}
+
+.card-bottom-arrow{
+    height: 50px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+
+.card-numeric-letter{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: -10px;
+    margin-right: -10px;
+    width: 80px;
+    height: 80px;
+}

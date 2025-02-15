@@ -36,62 +36,50 @@ const WelcomePrincipal = () => {
                 </div>
             </section>
             <section className="mt-16">
-                <div className="image-description-container">
-                    <div className="image-container">
-                        <Image src={PrincipalBackgroundImage} alt="princialbackground" className="prinicpal-background flex justify-end" />
-                        <Image src={PrincipalImage} alt="prinicapalImage" className="prinicpal-img" />
-                    </div>
-                    <div className="principal-description-container">
-                        <div className="principal-description-sub-container">
-                            <h2 className="principal-fullname text-3xl font-bold">Full Name</h2>
-                            <p className="principal-designation text-lg">Principal</p>
-                            <p className="principal-description">As the founding Principal of Reigate Grammar International School Kuala Lumpur (RGIS KL), I am delighted to share my vision for this exciting new chapter. With over two decades of experience in education, I have been fortunate to serve in roles such as Director of Performing Arts, Head of Teaching and Learning, and Principal of Beaconhouse Newlands International School. Alongside these experiences, I earned a Master’s in Education and achieved the National Professional Qualification for Headship (NPQH), which has shaped my understanding of what makes an excellent school.</p>
-                            <p className="principal-description">At RGIS KL, I am proud to bring together the rich heritage of Reigate Grammar School UK (RGS) with a dynamic, forward-thinking approach to education. Guided by the values and traditions of RGS, we aim to inspire every student to excel academically, grow as individuals, and embrace their full potential.</p>
-                        </div>
-                    </div>
+            <div className="image-description-container flex flex-col md:flex-row items-center">
+                <div className="image-container w-full md:w-1/2 flex justify-center relative">
+                    <Image src={PrincipalBackgroundImage} alt="Principal Background" className="prinicpal-background" />
+                    <Image src={PrincipalImage} alt="Principal Image" className="prinicpal-img" />
                 </div>
-            </section>
-            <section className="min-h-full about-principal-section-2 py-24">
-                <div className="container-fluid about-principal-section2-main mx-auto">
-                    <div className="about-principal-section-content">
+                <div className="principal-description-container w-full md:w-1/2 mt-6 md:mt-0 px-4 md:px-0">
+                    <h2 className="principal-fullname text-3xl font-bold">Full Name</h2>
+                    <p className="principal-designation text-lg">Principal</p>
+                    <p className="principal-description">With over two decades of experience in education, I have been fortunate to serve in various leadership roles...</p>
+                    <p className="principal-description">At RGIS KL, we aim to inspire every student to excel academically and grow as individuals...</p>
+                </div>
+            </div>
+
+            <section className="about-principal-section-2 py-24 px-6 md:px-16">
+                <div className="about-principal-section2-main flex flex-col md:flex-row items-center">
+                    <div className="about-principal-section-content md:w-3/5 text-white">
                         <h3 className="about-principal-section-2-heading">The Legacy of Reigate Grammar School</h3>
-                        <p className="about-principal-section-2-description">Reigate Grammar School UK, founded in 1675, has earned its reputation as one of the world’s leading grammar schools. For nearly 350 years, it has been defined by its commitment to academic excellence, strong values, and preparing students to navigate the challenges of an ever-changing world.</p>
-                        <p className="about-principal-section-2-description">In 2025, RGS UK was named School of the Year, a testament to its dedication to innovation, character development, and leadership. This legacy provides the foundation for RGIS KL, where we are proud to carry forward the same ethos of excellence.</p>
-                        <h3 className="about-principal-section-2-heading">Establishing RGIS KL in Malaysia</h3>
-                        <p className="about-principal-section-2-description">The launch of RGIS KL is a significant milestone in Malaysian education. By combining the globally respected Cambridge International Curriculum with the values of RGS, we offer a unique learning experience that develops both academic success and character. RGIS KL is more than just a school; it is a community where students are encouraged to grow intellectually, socially, and emotionally. My vision is to create a culture of collaboration and innovation, inspiring every child to achieve their full potential.</p>
-
+                        <p className="about-principal-section-2-description">Founded in 1675, Reigate Grammar School UK has a strong legacy of academic excellence...</p>
                         <h3 className="about-principal-section-2-heading">Go Beyond: Our Philosophy</h3>
-                        <p className="about-principal-section-2-description">‘Go Beyond’ is the philosophy at the heart of RGIS KL. It reflects our belief that with the right encouragement and support, students can surpass their own expectations. This approach guides every aspect of school life, equipping students with the skills and confidence to embrace opportunities and tackle challenges.</p>
-                        <p className="about-principal-section-2-description">Through engaging teaching methods, a well-rounded curriculum, and a wide array of extracurricular activities, we help students discover their passions and explore their potential. Our connections to the RGS Global Village further enrich this experience, offering opportunities for cross-cultural collaboration and global perspectives. </p>
+                        <p className="about-principal-section-2-description">‘Go Beyond’ is the philosophy at the heart of RGIS KL...</p>
                     </div>
-                    <div className="about-principal-section-2-image">
-                        <Image src={RocketBackground} alt="rocketbackground" className="rocket-background-size" />
-                        
+                    <div className="about-principal-section-2-image w-full md:w-2/5 flex justify-center mt-6 md:mt-0">
+                        <Image src={RocketBackground} alt="Rocket Background" className="rocket-background-size" />
                     </div>
                 </div>
-
             </section>
+
             <section className="mt-10">
-                <div className="image-description-container">
-                    <div className="image-container">
-                        <Image src={Section3BackgroundImage} alt="princialbackground" className="prinicpal-section3-background flex justify-end" />
-                        <Image src={Section3Image} alt="prinicapalImage" className="prinicpal-section3-img" />
+                <div className="image-description-container flex flex-col md:flex-row items-center">
+                    <div className="image-container w-full md:w-1/2 flex justify-center relative">
+                        <Image src={Section3BackgroundImage} alt="Section 3 Background" className="prinicpal-section3-background" />
+                        <Image src={Section3Image} alt="Section 3 Image" className="prinicpal-section3-img" />
                     </div>
-                    <div className="principal-description-container">
-                        <div className="principal-description-sub-container">
-                            <h3 className="principal-fullname text-3xl font-bold">World-Class Facilities and Holistic Development</h3>
-                            <p className="principal-description">Our campus is designed to inspire and enable students to thrive. With cutting-edge facilities—including advanced science laboratories, art studios, sports facilities, and a multi-purpose hall—RGIS KL provides the perfect environment for a modern education.</p>
-                            <p className="principal-description">But it’s not just about the facilities. Our programmes encourage critical thinking, creativity, and leadership. Whether through hands-on STEAM projects, performing arts opportunities, or outdoor learning, every student is supported to grow intellectually and personally.</p>
-                        </div>
-
-                        <div className="principal-description-sub-container">
-                            <h3 className="principal-fullname text-3xl font-bold">Empowering Students to Go Beyond</h3>
-                            <p className="principal-description">At RGIS KL, our goal is to deliver academic excellence while nurturing capable, compassionate, and ambitious individuals. Drawing on the values of Reigate Grammar School UK, we are committed to creating an environment where every student is inspired to ‘Go Beyond.’</p>
-                            <p className="principal-description">I warmly invite you to join us as we embark on this exciting journey, shaping a brighter future for our children together.</p>
-                        </div>
+                    <div className="principal-description-container w-full md:w-1/2 mt-6 md:mt-0 px-4 md:px-0">
+                        <h3 className="principal-fullname text-3xl font-bold">World-Class Facilities and Holistic Development</h3>
+                        <p className="principal-description">Our campus is designed to inspire and enable students to thrive. With cutting-edge facilities—including advanced science laboratories, art studios, sports facilities, and a multi-purpose hall—RGIS KL provides the perfect environment for a modern education.</p>
+                        <p className="principal-description">But it’s not just about the facilities. Our programmes encourage critical thinking, creativity, and leadership. Whether through hands-on STEAM projects, performing arts opportunities, or outdoor learning, every student is supported to grow intellectually and personally.</p>
+                        <h3 className="principal-fullname text-3xl font-bold">Empowering Students to Go Beyond</h3>
+                        <p className="principal-description">At RGIS KL, our goal is to deliver academic excellence while nurturing capable, compassionate, and ambitious individuals. Drawing on the values of Reigate Grammar School UK, we are committed to creating an environment where every student is inspired to ‘Go Beyond.’</p>
+                        <p className="principal-description">I warmly invite you to join us as we embark on this exciting journey, shaping a brighter future for our children together.</p>
                     </div>
                 </div>
             </section>
+        </section>
         </div>
     )
 }

@@ -1,25 +1,46 @@
 .floating-button {
-    position: fixed;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 80px;
+  height: 80px;
+  background-color: #032D5A;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  font-size: 16px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease-in-out;
+  z-index: 1000;
+}
+
+/* Hover Effect */
+.floating-button:hover {
+  background-color: #fff;
+  color: #032D5A;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .floating-button {
+    width: 60px;
+    height: 60px;
+    font-size: 14px;
     bottom: 20px;
-    right: 20px;
-    width: 80px;
-    height: 80px;
-    background-color: #032D5A;
-    color: white;
-    border: none;
-    border-radius: 50%;
-    font-size: 18px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.3s ease-in-out;
+    right: 80px;
   }
-  
-  .floating-button:hover {
-    background-color: #fff;
-    /* transform: scale(1.1); */
-    color: #032D5A
+}
+
+@media (max-width: 480px) {
+  .floating-button {
+    width: 50px;
+    height: 50px;
+    font-size: 12px;
+    bottom: 10px;
+    right: 10px;
   }
-  
+}

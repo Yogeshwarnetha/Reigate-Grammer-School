@@ -1,15 +1,15 @@
 import React from "react";
 import './index.css';
 
-interface FloatingButtonProps {
-  onClick: () => void;
-}
 
-const FloatingButton: React.FC<FloatingButtonProps> = ({ onClick }) => {
+
+const FloatingButton = () => {
   return (
-    <button className="floating-button" onClick={onClick}>
-      <p>Apply <br/> Now</p>
+    <a href="admission/register-now/">
+    <button className="floating-button">
+      <p>Register <br/> Now</p>
     </button>
+    </a>
   );
 };
 

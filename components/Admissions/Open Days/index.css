@@ -1,0 +1,176 @@
+.openDays-section1-main-card{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.openDays-section1-card{
+    max-width: 600px;
+    background-color: #F8F8F8;
+    padding: 20px 40px;
+    text-align: justify;
+    border-radius: 10px;
+}
+
+.openDays-section1-card-heading{
+    font-size: 24px;
+    font-weight: bold;
+    color: #032D5A;
+}
+
+.openDays-section1-card-sub-heading{
+    font-size: 18px;
+    color: #032D5A;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.openDays-section1-card-description{
+    font-size: 16px;
+    color: #032D5A;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.openDays-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.openDays-section2-card {
+    max-width: 330px;
+    height: 320px;
+    flex: 1;
+    min-width: 300px;
+}
+
+.openDays-section2-card-2 {
+    max-width: 550px;
+    flex: 1;
+    min-width: 500px;
+}
+
+.opendays-section3-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px 0px;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: justify;
+    color: white;
+}
+
+
+.opendaybanner-main-container {
+    background-image: url('/images/openDaysBackground.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.opendays-section4-logo-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    width: 70%;
+    padding: 20px 0px;
+    gap: 20px; 
+    background-color: white;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+
+
+}
+
+.opendays-section4-content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    text-align: left; 
+}
+
+.opendays-section4-logo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* Moves logo to the right */
+}
+
+.opendays-logo {
+    max-width: 100%;
+    height: auto;
+}
+
+.opendays-section4-content-text{
+    font-size: 18px;
+    font-weight: 400;
+    color: #032D5A;
+    margin-bottom: 10px;
+    width: 70%;
+}
+.opendays-section4-content-button{
+    background-color: #032D5A;
+    width: 200px;
+    padding: 20px 8px;
+    border-radius: 10px;
+    color: white;
+    margin-top: 10px;
+}
+
+/* Tablet Responsiveness */
+@media (max-width: 1024px) {
+    .openDays-row {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .openDays-section2-card {
+        max-width: 45%;
+        min-width: 280px;
+    }
+
+    .openDays-section2-card-2 {
+        max-width: 90%;
+        min-width: 80%;
+    }
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 767px) {
+    .openDays-row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .openDays-section2-card, 
+    .openDays-section2-card-2 {
+        width: 100%;
+        max-width: 90%;
+        min-width: auto;
+    }
+
+    .opendays-section4-logo-container {
+        flex-direction: column; /* Stack logo & content vertically */
+        align-items: center;
+        text-align: center;
+    }
+
+    .opendays-section4-content, 
+    .opendays-section4-logo {
+        width: 100%;
+        align-items: center;
+    }
+
+    .opendays-section4-logo {
+        align-items: center; /* Center the logo on mobile */
+    }
+}

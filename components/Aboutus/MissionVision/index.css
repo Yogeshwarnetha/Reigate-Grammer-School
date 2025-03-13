@@ -1,71 +1,12 @@
-.about-our-school-banner{
-    background-color: #E1E2E3;
-    height: 120px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-left: 12%;
-    color: #032D5A;
 
-}
-
-.banner-text-content{
-    padding-left: 10%;
-}
-.banner-about-img{
-    max-height: 300px;
-}
-
-.about-banner-img{
-    max-width: 450px;
-    max-height: 450px;
-    margin-top: 150px;
-}
-
-.our-school-heading{
-    font-size: 48px;
-    text-align: center;
-}
-
-.image-container{
-    position: relative;
-    width: 50%;
-}
-
-.our-vision-mission-main-section {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    background-color: #DCE4F4;
-    padding: 40px 20px;
-}
-
-.our-vision-mission-main-sub-section {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1200px;
-    width: 100%;
-    gap: 40px;
-}
-
-/* Text Styling */
-.our-mission-text-container {
-    flex: 1;
-}
 
 .our-mission-heading {
     color: #032D5A;
     font-size: 32px;
-    font-weight: 500;
+    margin: 20px 0px;
 }
 
-.our-mission-description {
-    max-width: 480px;
-    text-align: justify;
-    line-height: 28px;
-    margin-top: 20px;
-}
+
 
 /* Image Styling */
 .our-mission-image-container {
@@ -81,6 +22,7 @@
 
 .ourmission-section-2{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -119,6 +61,12 @@
   margin: 5px;
 }
 
+
+.card-custom-text-section-2-heading{
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: white;
+}
 
 
 /* Responsive Design */

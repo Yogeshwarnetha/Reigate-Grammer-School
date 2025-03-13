@@ -1,0 +1,50 @@
+.location-section2-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.location-section2-sub-container{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.location-section2-heading{
+    font-size: 28px;
+    margin-bottom: 20px;
+    line-height: 40px;
+    font-weight: bold;
+    color: #032D5A;
+    text-align: center;
+    margin-top: 40px;
+
+}
+
+.location-section2-description{
+    font-size: 18px;
+    margin-bottom: 40px;
+    line-height: 28px;
+    font-weight: 400;
+    text-align: center;
+    max-width: 80%;
+    margin-bottom: 20px;
+}
+
+.location-section3-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #032D5A;
+    padding: 20px 0px;
+}
+
+.LocationTrack{
+    margin: 20px 0px;
+}

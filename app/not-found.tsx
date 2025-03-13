@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import Page404ErrorImage from '@/images/construction-concept-illustratio.png'
+import Page404ErrorImage from '@/public/images/construction-concept-illustratio.png'
 
 
 const Page404Error = () => {

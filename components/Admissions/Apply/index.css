@@ -22,8 +22,9 @@
 
 .apply-ssection3-heading{
     font-size: 28px;
-    font-weight: bold;
+    font-weight: lighter;
     margin-bottom: 20px;
+    text-align: start;
 }
 
 .feestructure-section2-main{
@@ -40,10 +41,54 @@
 .apply-section3-main{
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
     height: auto;
-    text-align: center;
     text-align: justify;
     width: 100%;
 }
+
+
+
+.gradient-overlay{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    /* width: 100%; */
+    height: 100%;
+    background: 
+        linear-gradient(270deg, rgba(3, 45, 90, 0) 0%, rgba(3, 45, 90, 0.155) 84%, #032D5A 100%),
+        linear-gradient(360deg, rgba(3, 45, 90, 0) 0%, rgba(3, 45, 90, 0.155) 84%, #032D5A 100%);
+    /* mix-blend-mode: multiply; */
+  }
+
+  .apply-button-list{
+    display: flex;
+    gap: 15px;
+    margin: 20px 0px;
+
+  }
+  .apply-button{
+    padding: 8px 20px;
+    background-color: #B9C9E9;
+    border-radius: 8px;
+  }
+
+
+  .admission-guide-container-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .admission-guide-container-1-text{
+        width: 50%;
+  }
+
+  .admission-guide-container-1-image{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }

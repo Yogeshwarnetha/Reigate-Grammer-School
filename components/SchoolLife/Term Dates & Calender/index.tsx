@@ -1,10 +1,10 @@
 "use client"
 import React, { useState } from 'react'
-import BannerImage from '@/images/Banner image.png'
+import BannerImage from '@/public/images/Banner image.png'
 import Image from 'next/image'
 import { ChevronRight } from 'lucide-react'
 import './index.css'
-import calenderImage from '@/images/calender-image.png'
+import calenderImage from '@/public/images/calender-image.png'
 
 interface CalendarEvent {
   date: string;

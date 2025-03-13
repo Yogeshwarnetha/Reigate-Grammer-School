@@ -10,15 +10,12 @@ export default function RootLayoutClient({ children }: { children: React.ReactNo
   const pathname = usePathname();
   const isAdminRoute = pathname?.startsWith("/admin");
 
-  <FloatingButton onClick={() => alert("Floating Button Clicked!")} />
-
-
   return (
     <>
       {!isAdminRoute && <Navbar />}
       {children}
       {!isAdminRoute && <Footer />}
-      {!isAdminRoute && <FloatingButton onClick={() => alert("Floating Button Clicked!")} />} 
+      {!isAdminRoute && <FloatingButton  />} 
     </>
   );
 }

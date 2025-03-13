@@ -8,8 +8,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* School Information */}
           <div className="space-y-4">
-            <h2 className="text-1xl font-semibold">Reigate Grammar International School</h2>
-            <h3 className="text-1xl">Kuala Lumpur</h3>
+            <h2 className="text-1xl font-semibold">Reigate Grammar School <br/>Kuala Lumpur</h2>
             <p className="text-sm">
               Jalan Kajang 2 Utama Seksyen 2,<br />
               Kajang 2 43000 Kajang, Selangor

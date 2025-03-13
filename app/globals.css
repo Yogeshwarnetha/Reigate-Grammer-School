@@ -20,6 +20,31 @@
   font-style: normal;
 }
 
+
+@font-face {
+  font-family: 'Georgia';
+  src: url('/fonts/georgia.woff2') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gill Sans';
+  src: url('/fonts/GIL_____.TTF') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Apply styles */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Georgia', serif;
+}
+
+p {
+  font-family: 'Gill Sans', sans-serif;
+}
+
+
 .main-404-error-page{
   color: var(--school-text);
   padding: 100px;
@@ -30,4 +55,83 @@
 
 .page-404-error{
   max-width: 500px;
+}
+
+.banner-main-img{
+  max-height: 300px;
+}
+
+.banner-text-content{
+  padding-left: 10%;
+}
+
+.main-our-school-banner{
+  background-color: #E1E2E3;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 12%;
+  color: #032D5A;
+
+}
+
+
+
+
+.banner-img {
+  max-height: 200px;
+}
+
+.banner-text-content {
+  padding-left: 8%;
+}
+
+.banner-heading {
+  font-size: 36px;
+  text-align: left;
+  width: 100%;
+}
+
+.navbar-banner {
+  background-color: #E1E2E3;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  padding: 0 10%;
+  text-align: center;
+  color: #032D5A;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 1024px) {
+  .banner-heading {
+    font-size: 36px;
+  }
+
+  .navbar-banner {
+    height: 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .banner-heading {
+    font-size: 28px;
+  }
+
+  .navbar-banner {
+    height: 90px;
+  }
+}
+
+@media (max-width: 480px) {
+  .banner-heading {
+    font-size: 24px;
+  }
+
+  .navbar-banner {
+    height: 80px;
+  }
 }

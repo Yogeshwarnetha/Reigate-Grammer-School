@@ -1,36 +1,33 @@
 import React from 'react'
-import BannerImage from '@/images/Banner image.png'
+import BannerImage from '@/public/images/Banner image.png'
 import Image from 'next/image'
-import { ChevronRight } from 'lucide-react'
+import { ChevronRight, Shield } from 'lucide-react'
 import './index.css'
+import StudentStudingImage from '@/public/images/Fee Structure Image.png'
 
 const AdmissionFeeStructure = () => {
   return (
     <div>
-      <section className="w-full">
-        <div className="relative w-full h-[400px]">
-          <Image src={BannerImage} alt="Banner-Image" className="banner-about-img w-full object-cover" />
-          <div className="absolute inset-0 px-10 banner-background-text-navigation">
-            <div className="banner-text-content text-white flex-1 items-center mt-20 ">
-              <div className='text-5xl leading-relaxed'>
-                School Fee
-              </div>
-              <div className="flex items-center space-x-2 text-sm mb-4 px-2">
-                <a href="#" className="hover:underline">Home</a>
-                <ChevronRight className="w-4 h-4 " />
-                <span>School Fee</span>
-              </div>
 
-            </div>
-
-          </div>
-          <div className='main-school-banner-bottom'>
-            <h2 className="text-3xl font-bold">Fee Details </h2>
-          </div>
-        </div>
-      </section>
-      <section className='feestructure-section2-main py-24'>
+<section className="w-full">
+              <div className="relative w-full h-[200px] sm:h-[150px] md:h-[180px] lg:h-[200px]">
+                <Image src={BannerImage} alt="Banner-Image" className="banner-img w-full object-cover" />
+                <div className="absolute inset-0 flex items-center justify-start px-5 sm:px-3 md:px-6 lg:px-10">
+                  <div className="banner-text-content text-white max-w-full text-center">
+                    <div className="whitespace-nowrap text-[min(48px,5vw)]">
+                    Fees & Financial Aid                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="navbar-banner">
+                <h2 className="text-2xl sm:text-xl md:text-2xl lg:text-3xl font-bold">
+                Flexible options to invest in your child’s future.                </h2>
+              </div>
+            </section>
+      <section className='feestructure-section2-main pb-24'>
         <div className='container feestructure-section2-main-container mx-auto'>
+        <div className="flex justify-start font-bold text-2xl text-[#032D5A] py-10">Fee Structure</div>
+
           <div className='feestructure-main-description'>
             <p>The following fees are applicable at the time of application and enrolment:</p>
           </div>
@@ -75,7 +72,6 @@ const AdmissionFeeStructure = () => {
       </section>
       <section>
       <div className=" bg-[#032D5A] p-8 text-white shadow-lg">
-      <h2 className="text-2xl font-bold mt-16 text-center">Fee Structure</h2>
 
       <div className="max-w-5xl mx-auto space-y-8 mt-10">
         {/* School Fee Table */}
@@ -184,6 +180,43 @@ const AdmissionFeeStructure = () => {
                 </tr>
               </tbody>
             </table>
+          </div>
+        </div>
+      </div>
+    </div>
+      </section>
+      <section>
+      <div className="container mx-auto my-10 flex items-center justify-center p-4">
+      <div className="max-w-4xl w-full ">
+        <div className="relative flex flex-col md:flex-row ">
+          {/* Image section with student */}
+          <div className="relative w-full md:w-1/2 bg-white rounded-lg shadow-lg overflow-hidden">
+            < img
+              src="https://nextgennew.s3.ap-south-1.amazonaws.com/RGS/Fee+and+Financial+Aid.png" 
+              alt="Student studying" 
+              className="w-full h-64 md:h-full object-cover"
+            />
+            
+            {/* <div className="absolute top-6 left-[-10px] bg-blue-900 text-white p-4 rounded-md shadow-md">
+              <div className="text-3xl font-bold">10+</div>
+              <div className="text-sm">Lorem Ipsum</div>
+            </div>
+            
+            <div className="absolute -bottom-6 right-10 bg-blue-800 rounded-full p-4 shadow-lg">
+              <Shield className="w-6 h-6 text-white" />
+            </div> */}
+          </div>
+          
+          {/* Text content section */}
+          <div className="w-full md:w-1/2 p-8">
+            <h2 className="text-2xl font-bold text-blue-900 mb-4">Scholarships and Bursaries</h2>
+            <p className="text-gray-700">
+              At RGIS KL, we are committed to nurturing excellence across 
+              academics, sports, and the arts. To support and encourage 
+              outstanding talent, we offer a range of merit-based scholarships. If 
+              you are interested in applying, please contact us for detailed 
+              information on the criteria and application process.
+            </p>
           </div>
         </div>
       </div>

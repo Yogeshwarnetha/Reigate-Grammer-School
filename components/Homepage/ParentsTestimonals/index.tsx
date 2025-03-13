@@ -6,28 +6,25 @@ interface Testimonial {
   author: string;
   role: string;
   content: string;
-  rating: number;
   image: string;
 }
 
 const testimonials: Testimonial[] = [
   {
     id: 1,
-    author: 'Bleu Reardon',
-    role: 'PARENT',
+    author: 'Gordon Solomon',
+    role: 'Parent of Ian Solomon, Year 1',
     content:
-      'Wow, what a great experience from the start! The thoughtful Ms. Taryn greeted me (my kids have actually mentioned how nice she is) to the most wonderful, open-minded teacher! I am so happy with the significant progress my kids have made, thanks to the support of the school and their teachers. This is the first time as a mother of identical twins that I feel a school has taken the time and effort to understand them as individuals. Reigate is honestly the perfect school environment for learning and emotional growth.',
-    rating: 5,
+      'Choosing Reigate Grammar School Kuala Lumpur for our son, Ian, has been one of the best decisions we have made. Now in Year 1, he is thriving in an environment that nurtures both academic excellence and personal growth, with exceptional pastoral care at its heart. RGS KL provides a truly holistic education, shaping confident, well-rounded individuals. We are also excited about RGS KL, which promises to uphold the school’s outstanding legacy. With its strong values and commitment to excellence, Reigate is the perfect place for Ian to grow into the fine young man we know he will become.',
     image:
       'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=100&h=100',
   },
   {
     id: 2,
-    author: 'Sarah Mitchell',
-    role: 'PARENT',
+    author: 'Daniel',
+    role: 'Grandparent of Alexander, Year 5',
     content:
-      'The dedication of the teachers and staff has been remarkable. Our child has flourished in ways we never expected. The individualized attention and nurturing environment have made all the difference in their academic journey.',
-    rating: 5,
+      'With its rich 350-year history, RGS KL has long been a beacon of academic excellence and character development. As a grandparent, I could not be more pleased with our decision to enroll Alexander in Year 5 at RGS KL. The school’s holistic approach nurtures well-rounded individuals and shaping future leaders. We firmly believe in RGS’s strong values and exceptional education system, which will equip Alexander with the skills and character to contribute meaningfully to society. The new campus promises an exciting future, and we are thrilled to be part of this journey.',
     image:
       'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=100&h=100',
   },
@@ -103,13 +100,7 @@ const Testimonials = () => {
                     className="w-12 h-12 md:w-16 md:h-16 rounded-full object-cover"
                   />
                   <div>
-                    <div className="flex items-center gap-1 md:gap-2 mb-1">
-                      {[...Array(testimonial.rating)].map((_, i) => (
-                        <span key={i} className="text-yellow-400 text-sm md:text-base">
-                          ★
-                        </span>
-                      ))}
-                    </div>
+            
                     <h3 className="text-[#1B365C] font-bold text-sm md:text-base">
                       {testimonial.author}
                     </h3>

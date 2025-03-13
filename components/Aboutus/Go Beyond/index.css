@@ -1,0 +1,13 @@
+.go-beyond-timeline-description{
+    background-color: #FFF3C1;
+    width: 100%;
+    padding: 15px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.go-beyond-timeline-text{
+    font-size: 16px;
+    color: #032D5A;
+    text-align: center;
+}

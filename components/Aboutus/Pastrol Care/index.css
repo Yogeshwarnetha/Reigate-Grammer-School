@@ -1,80 +1,251 @@
-.pastrol-care-section1-text{
+.section-1-container {
+    width: 100%;
+    background-color: #032D5A;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 50px;
+    position: relative;
+    min-height: 900px;
+}
+
+.section-1-img-container {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    top: 0;
+    right: 0; 
+    z-index: 0; 
+}
+
+.section-1-img-container::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.pastrol-care-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    z-index: 0;
+}
+
+.section-1-pastrolcare-text-container {
+    width: 60%;
+    color: white;
+    z-index: 10;
     display: flex;
     flex-direction: column;
-    align-items: start;
     justify-content: center;
-    text-align: start;
-    margin-left: 5%;
+    align-items: flex-start;
+    position: relative;
+    padding-right: 5%;
+    padding-left: 10%;
+}
+
+.pastrolcare-section1-description{
     max-width: 800px;
-    line-height: 30px;
+    text-align: justify;
+    line-height: 1.6;
+    font-size: 22px;
 }
 
-.pastrol-care-quotation{
-    margin-left: 35%;
-    /* margin-top: 20px; */
-    margin-bottom: 70%;
-    font-size: 20px;
-}
-
-.pastrol-care-description{
-    text-align:justify;
-}
-
-.pastrol-care-section2{
-    display: flex;
-    background-color: #032D5A;
+.pastrolcare-section1-cards {
+    position: relative;
+    z-index: 10;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-top: 20px;
     width: 100%;
-    justify-content: center;
 }
 
-.pastrol-care-section2-main{
+.pastrol-care-card {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+}
+
+.pastrolcare-card-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #1a202c;
+}
+
+.pastrolcare-card-content {
+    font-size: 16px;
+    color: #4a5568;
+    line-height: 1.5;
+}
+
+.pastrolcare-card-icon {
+    color: #002147;
+}
+
+@media (max-width: 1024px) {
+    .section-1-container {
+        flex-direction: column;
+        text-align: center;
+        padding: 30px;
+    }
+
+    .section-1-pastrolcare-text-container {
+        width: 100%;
+        align-items: center;
+    }
+
+    .pastrolcare-section1-cards {
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+
+    .section-1-img-container {
+        width: 100%;
+        height: 600px;
+    }
+}
+.pastrolcare-section3-img-content-container {
     display: flex;
-    justify-content:space-evenly;
 }
 
-.pastrol-care-section2-img{
+.pastrolcare-section3-img {
     width: 50%;
-    display:flex ;
+    height: 900px;
+    position: relative;
+}
+
+.PastrolcareSection3ImageWrapper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.PastrolcareSection3Image {
+    width: 100%;
+    height: 900px;
+    object-fit: cover;
+    margin-left: -30px;
+    margin-right: -30px;
+}
+
+.PastrolcareSection3ImageWrapper::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.8) 100%);
+    pointer-events: none;
+    z-index: 1;
+
+}
+
+.pastrolcare-section3-button{
+    display: flex;
     justify-content: center;
+    align-items: center;
+    gap: 10;
+    border: 2px solid #032D5A;
+    border-radius: 10px;
+    padding: 8px 16px;
+    background-color: #E6EEFE;
 }
 
-.pastrol-care-section2-content{
-    width: 50%;
+.pastrolcare-section3-buttons{
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+    max-width: 600px;
+}
+
+.pastrolcare-section3-content{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+    padding: 30px;
 }
 
-.pastrol-care-section2-sub-content{
-    max-width: 70%;
-    
+.pastrolcare-heading{
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #032D5A;
+    font-weight: 400;
 }
 
-.pastrol-care-section2-heading{
-    font-size: 32px;
-    color: white;
+.pastrolcare-description{
+    max-width: 600px;
+    text-align: justify;
+    line-height: 1.6;
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #000000;
 }
 
-.pastrol-care-section2-description{
-    line-height: 28px;
-    font-size: 16px;
-    margin-top: 10px;
-    color: #F8F8F8;
-}
-
-.card-bottom-arrow{
-    height: 50px;
-    border-top-left-radius: 100px;
-    border-top-right-radius: 100px;
-}
-
-.card-numeric-letter{
-    font-size: 24px;
-    font-weight: 600;
+.pastrolcare-sub-heading{
+    font-size: 18px;
     margin-bottom: 10px;
-    margin-top: -10px;
-    margin-right: -10px;
-    width: 80px;
-    height: 80px;
+    color: #000000;
+    font-weight: 600;
+}
+
+.pastrol-care-section-container{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    padding-top: 10%;
+      
+}
+
+.pastrol-care-section-container-1{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    justify-content: flex-start;
+}
+
+.pastrol-care-section-container-2{
+    display: flex;
+    flex-direction: column;
+    width: 40%;  
+    justify-content: end;
+}
+
+.pastrol-care-section-container-1-description{
+    width: 450px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.pastrol-care-section-container-1-heading{
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.pastrol-care-section-img-container-2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -100px;
+}
+
+
+.pastrolcare-section-1-background-container{
+    background-image: url('https://nextgennew.s3.ap-south-1.amazonaws.com/RGS/PastrolCareBackground.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }

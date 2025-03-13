@@ -30,3 +30,85 @@
     align-items: center;
 }
 
+
+/* Custom dropdown positioning */
+.group:hover .absolute {
+    display: block;
+}
+
+/* Adjust dropdown position for each menu item */
+.group:nth-child(1) .absolute {
+    left: 0;
+}
+
+.group:nth-child(2) .absolute {
+    left: 0;
+}
+
+.group:nth-child(3) .absolute {
+    left: 0;
+}
+
+.group:nth-child(4) .absolute {
+    left: 0;
+}
+
+.group:nth-child(5) .absolute {
+    left: 0;
+}
+
+.group:nth-child(6) .absolute {
+    right: 0;
+    left: auto;
+}
+
+.group:nth-child(7) .absolute {
+    right: 0;
+    left: auto;
+}
+
+/* Ensure the dropdown doesn't go off-screen */
+@media (max-width: 1400px) {
+    .group:nth-child(n+5) .absolute {
+        right: 0;
+        left: auto;
+    }
+}
+
+/* Fix for dropdown hover issue */
+.dropdown-menu {
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 50;
+    margin-top: 0;
+}
+
+/* Right-aligned dropdown for last items */
+.dropdown-align-right {
+    right: 0;
+    left: auto !important;
+}
+
+/* Create a gap-less connection between menu item and dropdown */
+.menu-button-wrapper {
+    position: relative;
+}
+
+/* Add invisible area to prevent hover gap issues */
+.dropdown-menu::before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: 0;
+    right: 0;
+    height: 10px;
+    background: transparent;
+}
+
+/* Specific styling for the last dropdown to ensure it stays within viewport */
+.dropdown-last .dropdown-menu {
+    right: 0;
+    left: auto;
+}
